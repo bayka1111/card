@@ -1,0 +1,152 @@
+body {
+    font-family: "Trebuchet MS", "Myriad Pro", Arial, sans-serif;
+    font-size: 14px;
+    background: rgb(255, 255, 255);
+    color: #fff;
+    text-shadow: 1px 1px 1px #fff;
+    overflow-x: hidden;
+}
+
+.audio {
+    height: 80px;
+    position: absolute;
+    top:0px;
+    right: 50px; 
+}
+
+.container {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    /*border-top: 7px solid #333;*/
+    border-bottom: 7px solid #fff;
+    overflow: hidden;
+    /*box-shadow: 0px 0px 7px #000;*/
+}
+
+.bg div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 7584px;
+    height: 679px;
+    background-repeat: repeat;
+    background-position: top left;
+    background-color: transparent;
+}
+
+.bg .bg0 {
+    background-image: url(img/body-bg-sky.jpg);
+    width: 7578px;
+    height: 679px;
+    left: 0px;
+}
+
+.bg .bg1 {
+    background-image: url(img/horizonte-sun.png);
+    width: 7578px;
+    height: 679px;
+    left: 0px;
+}
+
+.bg .bg2 {
+    background-image: url(img/bg11.png);
+    width: 7578px;
+    left: 0px;
+    top: 100px;
+}
+
+.bg .bg3 {
+    background-image: url(img/bg22.png);
+    width: 7578px;
+    left: 0px;
+    top: 200px;
+}
+
+.bg .bg4 {
+    background-image: url(img/horizonte-nuvens-top.png);
+    width: 7578px;
+    left: 0px;
+    top: 0px;
+}
+.bg .bg5 {
+    background-image: url(img/bg55.png);
+    width: 7578px;
+    left: 0px;
+    top: 270px;
+}
+
+.bg .bg6 {
+    background-image: url(img/bg66.png);
+    width: 7578px;
+    left: 0px;
+    top: 501px;
+}
+
+.navigation span {
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    box-shadow: 0px 0px 2px #000;
+    top: 16px;
+    opacity: 0.3;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.navigation span.next {
+    background: #000 url(img/next.png) no-repeat center center;
+    left: 431px;
+}
+
+.navigation span.prev {
+    background: #000 url(img/prev.png) no-repeat center center;
+    left: 379px;
+}
+
+ul.slider-in {
+    height: 0px;
+    position: absolute;
+    top: 335px;
+    left: 0px;   
+    width: 11000px;
+    margin-left: 50px;
+}
+
+ul.slider-in li {
+    height: 420px;
+    float: left;
+    position: relative;
+    width: 16%;
+}
+
+ul.slider-in li img {
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
+ul.thumbs {
+    height: 35px;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    width: 760px;
+    margin-left: -316px;
+}
+
+ul.thumbs li {
+    position: absolute;
+    display: block;
+}
+
+ul.thumbs li img {
+    border: 0px solid #FFFFFF;
+    box-shadow: 0px 0px 20px #555;
+    cursor: pointer;
+    display: block;
+    opacity: 0.9;
+}
+
+ul.thumbs li.selected img {
+    opacity: 1.0;
+}
